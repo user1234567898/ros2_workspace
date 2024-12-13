@@ -1,0 +1,16 @@
+cd ~/ls_driver/src/Lslidar_ROS2_driver-CH128X1
+source install/setup.bash
+ros2 launch lslidar_driver lslidar_ch128x1_launch.py
+
+错误1：
+Exception in thread Thread-128 (process_point_cloud):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cqxx/ros2_workspace/install/ridar_detection_service/lib/python3.10/site-packages/ridar_detection_service/ridar_detection3.py", line 182, in process_point_cloud
+    perpendicular_direction2 = np.cross(line_direction, np.array([a, b, c]))
+  File "/home/cqxx/.local/lib/python3.10/site-packages/numpy/core/numeric.py", line 1587, in cross
+    axisa = normalize_axis_index(axisa, a.ndim, msg_prefix='axisa')
+numpy.exceptions.AxisError: axisa: axis -1 is out of bounds for array of dimension 0

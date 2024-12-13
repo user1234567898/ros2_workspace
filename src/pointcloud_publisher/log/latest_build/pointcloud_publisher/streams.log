@@ -1,0 +1,37 @@
+[0.604s] Invoking command in '/home/yuyifan/ros2_workspace/src/pointcloud_publisher': PYTHONPATH=/home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/pointcloud_publisher build --build-base /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build install --record /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/install.log --single-version-externally-managed install_data
+[0.896s] running egg_info
+[0.896s] creating build/pointcloud_publisher/pointcloud_publisher.egg-info
+[0.897s] writing build/pointcloud_publisher/pointcloud_publisher.egg-info/PKG-INFO
+[0.897s] writing dependency_links to build/pointcloud_publisher/pointcloud_publisher.egg-info/dependency_links.txt
+[0.897s] writing entry points to build/pointcloud_publisher/pointcloud_publisher.egg-info/entry_points.txt
+[0.897s] writing requirements to build/pointcloud_publisher/pointcloud_publisher.egg-info/requires.txt
+[0.898s] writing top-level names to build/pointcloud_publisher/pointcloud_publisher.egg-info/top_level.txt
+[0.898s] writing manifest file 'build/pointcloud_publisher/pointcloud_publisher.egg-info/SOURCES.txt'
+[0.898s] reading manifest file 'build/pointcloud_publisher/pointcloud_publisher.egg-info/SOURCES.txt'
+[0.899s] writing manifest file 'build/pointcloud_publisher/pointcloud_publisher.egg-info/SOURCES.txt'
+[0.899s] running build
+[0.899s] running build_py
+[0.899s] creating /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build
+[0.899s] creating /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build/lib
+[0.900s] creating /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build/lib/pointcloud_publisher
+[0.900s] copying pointcloud_publisher/pointcloud_publisher.py -> /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build/lib/pointcloud_publisher
+[0.900s] copying pointcloud_publisher/__init__.py -> /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build/lib/pointcloud_publisher
+[0.900s] running install
+[0.901s] running install_lib
+[0.901s] creating /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher
+[0.901s] copying /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build/lib/pointcloud_publisher/pointcloud_publisher.py -> /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher
+[0.901s] copying /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build/lib/pointcloud_publisher/__init__.py -> /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher
+[0.901s] byte-compiling /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-310.pyc
+[0.902s] byte-compiling /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher/__init__.py to __init__.cpython-310.pyc
+[0.902s] running install_data
+[0.902s] creating /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/share/ament_index
+[0.902s] creating /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/share/ament_index/resource_index
+[0.902s] creating /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/share/ament_index/resource_index/packages
+[0.903s] copying resource/pointcloud_publisher -> /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/share/ament_index/resource_index/packages
+[0.903s] copying package.xml -> /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/share/pointcloud_publisher
+[0.903s] running install_egg_info
+[0.903s] Copying build/pointcloud_publisher/pointcloud_publisher.egg-info to /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher-0.0.0-py3.10.egg-info
+[0.904s] running install_scripts
+[0.921s] Installing pointcloud_publisher script to /home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/pointcloud_publisher
+[0.921s] writing list of installed files to '/home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/install.log'
+[0.941s] Invoked command in '/home/yuyifan/ros2_workspace/src/pointcloud_publisher' returned '0': PYTHONPATH=/home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuyifan/ros2_workspace/src/pointcloud_publisher/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/pointcloud_publisher build --build-base /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/build install --record /home/yuyifan/ros2_workspace/src/pointcloud_publisher/build/pointcloud_publisher/install.log --single-version-externally-managed install_data

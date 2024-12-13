@@ -1,0 +1,9 @@
+# 请求参数，只有一个整数类型的托盘种类
+int32 pallet_types
+---
+#响应
+std_msgs/Float64 x
+std_msgs/Float64 y
+std_msgs/Float64 theta
+std_msgs/Bool success
+

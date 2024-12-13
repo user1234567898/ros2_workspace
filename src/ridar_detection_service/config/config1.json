@@ -1,0 +1,9 @@
+{
+    "detection_max_height" : 35,
+    "detection_max_distance" : 4,
+    "detection_min_distance" : 1.5,
+    "extract_front_line_min_samples" : 8,
+    "extract_front_line_line_max_threshold" : 0.23,
+    "extract_front_line_line_min_threshold" : 0.185,
+    "pallet_width" : 1.8
+}
